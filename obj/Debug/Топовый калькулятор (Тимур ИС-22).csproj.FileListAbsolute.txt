@@ -1,0 +1,33 @@
+C:\Users\Abdurakhamon\Documents\Visual studio project\Топовый калькулятор (Тимур ИС-22)\bin\Debug\Топовый калькулятор (Тимур ИС-22).exe.config
+C:\Users\Abdurakhamon\Documents\Visual studio project\Топовый калькулятор (Тимур ИС-22)\bin\Debug\Топовый калькулятор (Тимур ИС-22).exe
+C:\Users\Abdurakhamon\Documents\Visual studio project\Топовый калькулятор (Тимур ИС-22)\bin\Debug\Топовый калькулятор (Тимур ИС-22).pdb
+C:\Users\Abdurakhamon\Documents\Visual studio project\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.AssemblyReference.cache
+C:\Users\Abdurakhamon\Documents\Visual studio project\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.SuggestedBindingRedirects.cache
+C:\Users\Abdurakhamon\Documents\Visual studio project\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый_калькулятор__Тимур_ИС_22_.Form1.resources
+C:\Users\Abdurakhamon\Documents\Visual studio project\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый_калькулятор__Тимур_ИС_22_.Properties.Resources.resources
+C:\Users\Abdurakhamon\Documents\Visual studio project\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.GenerateResource.cache
+C:\Users\Abdurakhamon\Documents\Visual studio project\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.CoreCompileInputs.cache
+C:\Users\Abdurakhamon\Documents\Visual studio project\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).exe
+C:\Users\Abdurakhamon\Documents\Visual studio project\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).pdb
+E:\Топовый калькулятор (Тимур ИС-22)\bin\Debug\Топовый калькулятор (Тимур ИС-22).exe.config
+E:\Топовый калькулятор (Тимур ИС-22)\bin\Debug\Топовый калькулятор (Тимур ИС-22).exe
+E:\Топовый калькулятор (Тимур ИС-22)\bin\Debug\Топовый калькулятор (Тимур ИС-22).pdb
+E:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.AssemblyReference.cache
+E:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.SuggestedBindingRedirects.cache
+E:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый_калькулятор__Тимур_ИС_22_.Form1.resources
+E:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый_калькулятор__Тимур_ИС_22_.Properties.Resources.resources
+E:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.GenerateResource.cache
+E:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.CoreCompileInputs.cache
+E:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).exe
+E:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).pdb
+F:\Топовый калькулятор (Тимур ИС-22)\bin\Debug\Топовый калькулятор (Тимур ИС-22).exe.config
+F:\Топовый калькулятор (Тимур ИС-22)\bin\Debug\Топовый калькулятор (Тимур ИС-22).exe
+F:\Топовый калькулятор (Тимур ИС-22)\bin\Debug\Топовый калькулятор (Тимур ИС-22).pdb
+F:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.AssemblyReference.cache
+F:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.SuggestedBindingRedirects.cache
+F:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый_калькулятор__Тимур_ИС_22_.Form1.resources
+F:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый_калькулятор__Тимур_ИС_22_.Properties.Resources.resources
+F:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.GenerateResource.cache
+F:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).csproj.CoreCompileInputs.cache
+F:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).exe
+F:\Топовый калькулятор (Тимур ИС-22)\obj\Debug\Топовый калькулятор (Тимур ИС-22).pdb
