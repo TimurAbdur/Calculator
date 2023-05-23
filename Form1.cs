@@ -663,8 +663,15 @@ namespace Топовый_калькулятор__Тимур_ИС_22_
         //Число ПИ
         private void button23_Click_1(object sender, EventArgs e)
         {
-            textBox1.Text += 3.14;
-            CanUseD = true;
+            if(textBox1.Text == "")
+            {
+                textBox1.Text += 3.14;
+                CanUseD = true;
+            }
+            else
+            {
+                MessageBox.Show("Строка не пустая! Невозможно использовать число ПИ!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
 
         //Отрицает число
@@ -719,7 +726,7 @@ namespace Топовый_калькулятор__Тимур_ИС_22_
             {
                 Width= 455;
                 button28.Text = "less";
-                button24.Location = new Point(411, 0);
+
                 textBox1.Width = 415;
                 textBox1.Location = new Point(12, 95);
             }
@@ -727,7 +734,7 @@ namespace Топовый_калькулятор__Тимур_ИС_22_
             {
                 Width = 309;
                 button28.Text = "more";
-                button24.Location = new Point(265, 0);
+
                 textBox1.Width = 269;
                 textBox1.Location = new Point(12, 95);
 
@@ -753,8 +760,8 @@ namespace Топовый_калькулятор__Тимур_ИС_22_
             try
             {
                 double num = double.Parse(textBox1.Text);
-                label1.Text = Math.Exp(num).ToString();
-                textBox1.Text = "";
+                label1.Text = $"EXP({num})";
+                textBox1.Text = Math.Exp(num).ToString();
             }
             catch (Exception)
             {
