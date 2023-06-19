@@ -74,8 +74,12 @@ namespace Топовый_калькулятор__Тимур_ИС_22_
         }
         private void Zero_btn_Click(object sender, EventArgs e)
         {
-            textBox1.Text += 0;
-            CanUseD = true;
+            if(!textBox1.Text.Contains("0"))
+            {
+                textBox1.Text = "0";
+                CanUseD = true;
+            }
+           
         }
         //Кнопки цифры конец
 
@@ -92,22 +96,9 @@ namespace Топовый_калькулятор__Тимур_ИС_22_
         {
             string str = textBox1.Text;
 
-            if (CanUseZap && textBox1.Text != "")
-            {
-                if (str[str.Length - 1] == '+' || str[str.Length - 1] == '-' || str[str.Length - 1] == '/' || str[str.Length - 1] == '*' || str[str.Length - 1] == '(')
-                {
-                    textBox1.Text += "0,";
-                }
-                else
-                {
-                    textBox1.Text += ",";
-                }
-                CanUseZap = false;
-            }
-            else if (CanUseZap && textBox1.Text == "")
-            {
-                textBox1.Text += "0,";
-                CanUseZap = false;
+            if (!textBox1.Text.Contains(",")) {
+                if (textBox1.Text == "") textBox1.Text += "0,";
+                else textBox1.Text= ",";
             }
             else
             {
@@ -648,6 +639,11 @@ namespace Топовый_калькулятор__Тимур_ИС_22_
                     label1.Text = "ERROR";
                     MessageBox.Show("Число меньше 0! Невозможно посчитать!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+                else if (textBox1.Text == "0")
+                {
+                    MessageBox.Show("Невозможно посчитать логарифм 0!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    label1.Text = "ERROR";
+                }
                 else
                 {
                     label1.Text = $"lg({num})";
@@ -709,9 +705,22 @@ namespace Топовый_калькулятор__Тимур_ИС_22_
         {
             try
             {
-                double num = double.Parse(textBox1.Text);
-                label1.Text = $"ln({num})";
-                textBox1.Text = Math.Log(num).ToString();
+                if (textBox1.Text.Contains("-"))
+                {
+                    MessageBox.Show("Невозможно вычислисть отрицательный натуральный логарифм!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    label1.Text = "ERROR";
+                }
+                else if (textBox1.Text == "0")
+                {
+                    MessageBox.Show("Невозможно посчитать натуральный логарифм 0!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    label1.Text = "ERROR";
+                }
+                else
+                {
+                    double num = double.Parse(textBox1.Text);
+                    label1.Text = $"ln({num})";
+                    textBox1.Text = Math.Log(num).ToString();
+                }
             }
             catch (Exception)
             {
@@ -798,8 +807,17 @@ namespace Топовый_калькулятор__Тимур_ИС_22_
         {
             try
             {
-                double num = ToDoub(textBox1.Text);
-                textBox1.Text = (1 / num).ToString();
+                if (textBox1.Text == "0")
+                {
+                    MessageBox.Show("На 0 делить нельзя!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    label1.Text = "ERROR";
+                }
+                else
+                {
+                    double num = ToDoub(textBox1.Text);
+                    label1.Text = $"1 / {num}";
+                    textBox1.Text = (1 / num).ToString();
+                }          
             }
             catch (Exception)
             {
